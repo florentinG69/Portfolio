@@ -1,8 +1,30 @@
+/* ------------------------------
+           IMPORT DES TYPO
+ ---------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ------------------------------
+            MINIMAL CSS
+ ---------------------------------*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* ------------------------------
+              TYPO
+ ---------------------------------*/
+
+.montserrat-blanc{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+
+}
+
+
 
 
 /* ------------------------------
@@ -201,3 +223,25 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+
+/* ------------------------------
+         BACKGROUND et LINEAIRE
+ ---------------------------------*/
+
+.bg-bleu{
+    background-color: #19209C;
+}
+
+.degrade-horizontal {
+  background: linear-gradient(to right, blue, pink);
+}
+
+/* ------------------------------
+               BOUTON
+ ---------------------------------*/
+
+ a{
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+ }
