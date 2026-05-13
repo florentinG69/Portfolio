@@ -21,9 +21,13 @@
 .montserrat-blanc{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
+    color: white;
 
 }
 
+/* ------------------------------
+             STYLE DE TYPO
+ ---------------------------------*/
 
 
 
@@ -229,11 +233,14 @@
  ---------------------------------*/
 
 .bg-bleu{
-    background-color: #19209C;
+    background-color: #161a5b;
 }
 
-.degrade-horizontal {
-  background: linear-gradient(to right, blue, pink);
+.degrade-blue {
+  background: #3B5B9F;
+  background: linear-gradient(90deg,rgba(59, 91, 159, 1) 0%, rgba(25, 32, 156, 1) 100%);
+  padding: 20px;
+  border-radius: 0 0 20px 20px;
 }
 
 /* ------------------------------
